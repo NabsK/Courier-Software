@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Assets/icons8-truck.png">
     <title>Courier Software |Home</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,13 +20,11 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="Styles/styles.css">
-
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <?php include('components/navbar.php'); ?>
+    <?php include 'components/navbar.php'; ?>
 
     <!-- Hero -->
     <div class="container service-container">
@@ -77,8 +76,7 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <?php include('components/footer.php'); ?>
+    <?php include 'components/footer.php'; ?>
 
 </body>
 

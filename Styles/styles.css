@@ -67,14 +67,18 @@ main {
 
 /* Button Styles */
 .btn-custom {
-    background-color: #b90b2e;
+    background-color: #003184 !important;
+    border-color: #003184 !important;
     color: white;
-    transition: background-color 0.3s;
+
+    border-radius: 0;
 }
 
 .btn-custom:hover {
-    background-color: #8a0824;
+    background-color: #b90b2e !important;
+    border-color: #b90b2e !important;
     color: white;
+
 }
 
 /* Footer Styles */
@@ -82,4 +86,112 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
+}
+
+/* Tracking Page Styles */
+.tracking-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#loading {
+    display: none;
+}
+
+.tt_container {
+    margin: 1.5rem 0;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.tt_results_scanlines {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    line-height: 1.6;
+}
+
+.tt_results_scanlines:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.tt_results_scanlines:last-child {
+    border-bottom: none;
+}
+
+.tt_results_scanlines td,
+.tt_results_scanlines th {
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+}
+
+.tt_results_scanlines p {
+    margin-bottom: 0.5rem;
+}
+
+.tt_results_scanlines p:last-child {
+    margin-bottom: 0;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .tt_container {
+        margin: 1.5rem 0;
+        padding: 0;
+        font-size: 0.85rem;
+    }
+
+    .tt_results_scanlines {
+        padding: 0.75rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .tt_results_scanlines td,
+    .tt_results_scanlines th {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    .tracking-container {
+        padding: 0;
+    }
+}
+
+/* Quote Page Styles */
+.quote-container {
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.btn-custom {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-custom:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.rf-code-badge {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.service-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cheapest-service {
+    border-left: 4px solid #003184;
+    background-color: rgba(40, 167, 69, 0.05);
 }
